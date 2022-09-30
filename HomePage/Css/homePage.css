@@ -1,0 +1,450 @@
+  body{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: content-box;
+  }
+.homePage{
+  background-image: url("../images/backGround.PNG");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+}
+.navbar{
+  padding: 50px;
+  background-color: transparent !important;
+  color: white !important;
+  bottom:20px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+  color: white !important;
+  font-size: 1.2rem;
+  padding-right: 50px;
+}
+.searchbar{
+  border-top: none;
+  border-left: none ;
+  border-right: none;
+  background-color: transparent !important;
+  outline:none;
+  border-radius: 0% !important;
+  color: white;
+}
+
+
+.name1{
+
+  font-family: Lucida Handwriting;
+  font-size:30px;
+  position: relative;
+  font-weight: bold;
+  color: rgb(219, 62, 62);
+}
+.name2{
+
+  font-family: Lucida Handwriting;
+  font-size:30px;
+  position: relative;
+  font-weight: bold;
+  color: rgb(219, 62, 62);
+}
+
+.name3{
+
+  font-family: Lucida Handwriting;
+  font-size:30px;
+  position: relative;
+  font-weight: bold;
+  color: rgb(219, 62, 62);
+}
+
+.name4{
+
+  font-family: Lucida Handwriting;
+  font-size:30px;
+  position: relative;
+  font-weight: bold;
+  color: rgb(219, 62, 62);
+}
+
+.name5{
+
+  font-family: Lucida Handwriting;
+  font-size:30px;
+  position: relative;
+  font-weight: bold;
+  color: rgb(219, 62, 62);
+}
+
+.name6{
+
+  font-family: Lucida Handwriting;
+  font-size:30px;
+  position: relative;
+  font-weight: bold;
+  color: rgb(219, 62, 62);
+}
+
+
+
+.d-flex .nav a{
+  margin: 10px !important;
+  color: white !important;
+}
+.navbar .d-flex .nav a{
+  display: flex !important;
+  justify-content: center !important;
+  align-content: center !important;
+  font-size: 35px !important;
+
+}
+.fa-magnifying-glass{
+  font-size:20px;
+  align-self: center;
+  left: -40px;
+  font-weight: 600;
+  position: relative;
+}
+.fa-cart-shopping{
+
+    font-size:20px;
+    align-self: center;
+    left: -40px;
+    top:20px;
+    font-weight: 600;
+    position: relative;
+}
+.fa-circle-user{
+
+    font-size:23px;
+    align-self: center;
+    left: -40px;
+    top:20px;
+    font-weight: 600;
+    position: relative;
+
+}
+
+.form-control.searchbar::placeholder { /* Chrome/Opera/Safari */
+    color: white;
+    position: relative;
+    right: 11px;
+  }
+
+  .intro{
+    width: 100%;
+    margin-top: 100px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+ .text-label{
+    width: 50%;
+    color: white;
+    
+
+    
+  }
+
+  .btn-primary{
+    border-radius: 100px !important;
+    width: 250px;
+    font-size: 20px;
+    font-weight: bold;
+    background-image:linear-gradient(#60c392, #2b5e44);
+    padding: 10px;
+    margin: 30px;
+    border-color: #2b5e44;
+
+  }
+
+  .item-popularProducts{
+    margin: 50px;
+  }
+ 
+  .col1,.col2,.col3{
+    font-family: Lucida Handwriting;
+    font-size:30px;
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+    color: rgb(219, 62, 62);
+  }
+  
+  .secondary-button,.btn-success{
+    border-radius: 100px;
+    width: 200px;
+    background-color: #d4434f;
+    color: white;
+    font-weight: 600;
+  }
+
+ .container1{
+     position: relative;
+     right: 430px;
+     top: 300px;
+ }
+
+ .container2{
+    position: relative;
+    left: -150px;
+    top: -50px;
+}
+
+.container3{
+    position: relative;
+    left: 150px;
+    top: -400px;
+}
+
+.container4{
+    position: relative;
+    left: 450px;
+    top: -750px;
+}
+
+.item-popularProducts{
+    position: relative;
+    top: 100px;
+}
+
+.products{
+    position: relative;
+    top: 210px;
+    right: 15px;
+   
+
+}
+
+
+.aboutUs{
+    background-image: url("../images/About.jpg");
+    background-size: 100% 100%;
+    width: auto;
+    position: relative;
+    top: 450px;
+    background-position:center;
+    min-height:100% ;
+    background-repeat: no-repeat;
+  
+  }
+  .aboutUs .text{
+    margin-top: 50px;
+    font-size: 15px;
+    text-align: justify;
+  }
+  .aboutUs .col{
+    position: relative;
+    top: 100px;
+  }
+
+  .about{
+    font-family: Lucida Handwriting;
+    font-size:30px;
+    font-weight: bold;
+    color: rgb(179, 12, 12);
+    position: relative;
+    top: 20px;;
+  }
+
+  .btn.btn-success{
+
+    padding: 15px;
+    position: relative;
+    width: 200px;
+    top:30px;
+  }
+
+  .btn.secondary-button{
+      position: relative;
+      top: 20px;
+  }
+
+
+
+  .item-Productsinfo{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 50px;
+  
+  }
+  
+  .background{
+    margin-top: 140px;
+    width: 400;
+    height: 400;
+    border-radius: 20px;
+    background-color: red;
+    transform: rotate(-2deg);
+  }
+   .container .row .col{
+    position: relative;
+    margin-bottom: 50px;
+    top: 500px;
+  }
+  .background .content{
+    width: 395;
+    height: 395;
+    position: relative;
+    border-radius: 20px;
+    background-color: rgb(226, 226, 226);
+    transform: rotate(2deg);
+    padding: 10px;
+  }
+  .name{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 50px;
+    color: red;}
+  .background .content img{
+      position: relative;
+      margin-top: -150px;
+  
+   
+  }
+  footer{
+    position:inherit;
+    bottom: 0px;
+    background-image: url("../images/footer.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    padding: 30px;
+    bottom: 0px;
+    position: relative;
+    top:500px;
+    color: white;
+    
+  }
+  footer a{
+    color: white;
+    text-decoration: none;
+  }
+  footer .footer {
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer .footer .categories,.menu,.contactDetail,.contact{
+    margin: 10px;
+    font-size: 13px;
+    padding: 30px;
+  }
+   .contact input{
+    border-top: none ;
+    border-left: none ;
+    border-right: none ;
+    background-color: transparent;
+    border-color: #b7b7b7; 
+    max-width: 300px;
+   }
+   .contact{
+    border-radius: 20px;
+    max-width: 350px;
+    background-color: white;
+    opacity: 1;
+    padding: 10px;
+    float: right;
+    color:black ;
+   }
+   .subscribe{
+    border-radius: 100px !important;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-image:linear-gradient(#60c392, #2b5e44);
+    padding: 20px;
+    margin: 10px;
+   }
+   footer hr{
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  
+  .col3{
+    position: relative;
+    top: 500px;
+    
+}
+
+.miss{
+    font-size:20px;
+    top: 20px;
+    position: relative;
+}
+
+.btn .subscribe{
+    padding: 20px;
+    width: 100px;
+}
+
+.contact.text-label{
+    position: relative;
+    top: 50px;
+}
+
+.nameHolder{
+    width: 270px;
+}
+.addressHolder{
+  width: 270px;
+}
+
+.promote{
+  text-align: center;
+  font-size: 20px;
+}
+
+.container.content{
+    position: relative;
+    width: 100px;
+    height: 120px;
+  
+    
+}
+
+
+  .home{
+    height: auto;
+  }
+  .btn-primary {
+    width: 200px;
+    font-size: 15px;
+    font-weight: bolder;
+    background-image: linear-gradient(#2a704d, #2b5e44);
+    padding: 10px;
+    position: relative;
+    top: 10px;
+  }
+  
+  .owl-carousel .owl-item img {
+    display: block;
+    width: 70%;
+    height: auto;
+  }
+  .secondary-button, .btn-success {
+    width: 150px;
+    font-weight: 500;
+  }
+  .aboutUs .text {
+    margin-top: 50px;
+    font-size: 15px;
+    text-align: justify;
+  }
+  .aboutUs .container .row .col{
+    margin-top: 50px;
+  }
+  .aboutUs {
+    background-size: 100% 100%;
+    padding: 70px 20px;
+  }
+
+  
